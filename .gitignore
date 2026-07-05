@@ -1,0 +1,64 @@
+# ─── Raw EEG data ────────────────────────────────────────────────────────────
+*.xdf
+*.edf
+*.bdf
+*.set
+*.fdt
+
+# ─── Subject / participant CSVs (raw data exports) ───────────────────────────
+# Matches the pattern "##_Visual rhyme_eeg_1.csv" and similar raw data CSVs
+*_Visual rhyme_eeg_*.csv
+*_eeg_*.csv
+# Top-level subject CSVs
+Shreesh_erp_pilot_analysis/01-Pilot_Visual rhyme_eeg_1.csv
+Shreesh_erp_pilot_analysis/02_Visual rhyme_eeg_1.csv
+Shreesh_erp_pilot_analysis/03_Visual rhyme_eeg_1.csv
+
+# ─── Generated / processed EEG files (FIF) ───────────────────────────────────
+*.fif
+
+# ─── BrainVision raw EEG files ───────────────────────────────────────────────
+*.vhdr
+*.vmrk
+*.eeg
+
+# ─── All derivatives (generated outputs) ─────────────────────────────────────
+Shreesh_erp_pilot_analysis/derivatives/
+
+# ─── Jupyter notebook checkpoints ────────────────────────────────────────────
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ─── Python cache / compiled files ───────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ─── Virtual environments ─────────────────────────────────────────────────────
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ─── OS artifacts ────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── IDE / editor files ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Other large / generated artifacts ───────────────────────────────────────
+*.log
+*.tmp
+*.h5
+*.pkl
+*.npy
+*.npz
+*.mat
